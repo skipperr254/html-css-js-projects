@@ -37,4 +37,8 @@ If you said the difference is the `var` and `let` in the loop variable declarati
 
 On to the next challenge, whay do you think this happened? I mean, don't the both of the keywords declare variables?
 
-Well, they both do but apparently `var` creates global ones not scoped to blocks while `let` does the opposite. This had me stuck on a single line of code for an entire day. **Ain't JavaScript is awesome** ![Paim Inside](https://pbs.twimg.com/media/FAg0WX2VUAEJykg.jpg:large)
+Well, they both do but apparently `var` creates global ones not scoped to blocks while `let` does the opposite. This had me stuck on a single line of code for an entire day. 
+
+**Ain't JavaScript is awesome**
+
+<img src="https://pbs.twimg.com/media/FAg0WX2VUAEJykg.jpg" width="100px" alt="Pain Inside">
