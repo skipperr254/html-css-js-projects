@@ -39,6 +39,8 @@ On to the next challenge, whay do you think this happened? I mean, don't the bot
 
 Well, they both do but apparently `var` creates global ones not scoped to blocks while `let` does the opposite. This had me stuck on a single line of code for an entire day. 
 
+Also, if you decide to write a for loop with a setTimeout for every single iteration, use `let` so that you don't have to pull your eyes out or punch into your computer. [Here](https://www.youtube.com/watch?v=LRWA9rdcK8o) is a great explanation as to why!
+
 **Ain't JavaScript is awesome**
 
 <img src="https://pbs.twimg.com/media/FAg0WX2VUAEJykg.jpg" width="100px" alt="Pain Inside">

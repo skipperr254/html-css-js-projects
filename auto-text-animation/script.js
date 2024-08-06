@@ -1,41 +1,34 @@
-// const container = document.querySelector(".container");
-
+const container = document.querySelector(".container");
+const h1 = container.querySelector("h1")
 const careers = ["YouTuber", "Software Developer", "Instructor", "Web Developer"];
 
-// let word = careers[0];
 
-// const splitWord = () => {
-//     return word.split('');
-// }
+container.innerHTML = `<h1> I am a ${careers[0]}</h1>`
 
-// let wordArray = splitWord();
 
-// function f() {
-//     for (let i = 0; i < wordArray.length; i++) {
-//         setInterval(() => console.log(i), 1000);
+// let careersIndex = 0;
+// let careerCharIndex = 0;
+
+// setInterval(() => {
+
+
+//     if (careerCharIndex >= careers[careersIndex].length) {
+//         careerCharIndex = 0
+//         let contentLength = h1.innerHTML.length;
+//         let wordLength = careers[careersIndex].length;
+//         let diff = contentLength - wordLength;
+//         h1.innerHTML = h1.innerHTML.slice(0, diff);
+//         careersIndex++;
 //     }
-// }
 
-// for (let i = 0; i < 3; i++) {
-//     setInterval(() => console.log(i), 1000);
-// }
+//     if (careersIndex >= careers.length) {
+//         careersIndex = 0;
+//     }
 
-// const newCareers = careers.map(career => {
-//     return "add " + career;
-// });
-// console.log(newCareers)
+//     h1.innerHTML += careers[careersIndex][careerCharIndex];
 
-// const anotherCareers = [];
-
-// newCareers.forEach(career => {
-//     anotherCareers.push(career.slice(4, career.length));
-// });
-
-// console.log(anotherCareers)
+//     careerCharIndex++;
+// }, 500);
 
 
-for (let i = 0; i < 5; i++) {
-    console.log(i)
-}
-
-console.log(i)
+// Using recursion
